@@ -97,11 +97,11 @@ def playGame():
                                 print("ice cold")
                         else:
                             print("You got it! Your score is " + str(guesses))
-                        return guessNum
-                    guesses -= 1
-                    print("Your score is " + str(guesses))
-                print("Out of guesses! Too bad. Number was: " + str(ranNumber))
-            guessNumber(ranNumber)
+                            return guessNum
+                        guesses -= 1
+                        print("Your score is " + str(guesses))
+                    print("Out of guesses! Too bad. Number was: " + str(ranNumber))
+                guessNumber(ranNumber)
         selectGame()
     print("Do you want to play again? Y/N: ")
     answer = input()
